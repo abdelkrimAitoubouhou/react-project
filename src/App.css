@@ -1,6 +1,115 @@
-.App {
+/*.App {
   text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+
 }
+
+*/
+
+#navBar {
+  position: relative;
+  left: 35%;
+}
+
+.headerNav{
+  position: relative;
+}
+
+
+.action{
+  width: 260px;
+}
+
+
+
+
+#header {
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+  font-family: "Arial Black", emoji;
+  color: brown;
+}
+
+.logo {
+  position: relative;
+  right:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 50px;
+
+}
+
+.patientFormHeader {
+  position: relative;
+  text-align: center;
+  border: 2px solid aquamarine;
+  border-radius: 12px;
+  width: 200px;
+  padding: 5px;
+  left: 170px;
+  top: 15px;
+  font-family: "Droid Serif", serif;
+
+}
+
+
+.bg-body-tertiary{
+  position: fixed;
+}
+
+
+.errormessage{
+  color: red;
+  font-size: small;
+  font-family: "Droid Serif", serif;
+}
+
+
+
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #282c34;
+   color: white;
+   text-align: center;
+ }
+
+ .footer-content {
+     margin-top: 10px;
+ }
+
+.myButton {
+  background-color:#a88b56;
+  border-radius:21px;
+  border:1px solid #29668f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: Arial, serif;
+  font-size:17px;
+  padding:6px 6px;
+  text-decoration:none;
+  text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+  background-color:#408c99;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
 
 .App-logo {
   height: 40vmin;
